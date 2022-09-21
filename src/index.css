@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root {
+  --soft-blue: rgb(139, 172, 218);
+  --cyan: rgb(0, 255, 247);
+  --very-dark-blue: rgb(13, 25, 43);
+  --dark-blue: rgb(20, 37, 61);
+  --white: rgb(255, 255, 255);
+  --red: rgb(219, 21, 21);
+  --yellow: rgb(221, 218, 18);
+  --p-font-size: 18px;
+
+}
+
+p {
+  font-size: var(--p-font-size);
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  place-items: center;
+
+}
+
+.container {
+  width: 20vw;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 1fr 1fr 5rem;
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+  overflow: hidden;
+}
+
+.equilibrium {
+  width: 20vw;
+  height: 30vh;
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  
+
+}
+
+h5 {
+  color: var(--white);
+  align-items: left;
+  padding-top: 45%;
+  padding-left: 10%;
+
+}
+
+p {
+  font-size: 10px;
+  color: var(--soft-blue);
+  padding-top: 7%;
+  padding-left: 10%;
+}
+
+.avatar {
+ max-height: 50px;
+ max-width: 50px;
+ padding-left: 5%;
+ padding-inline-end: 15px;
+}
+
+.clock {
+  float: right;
+  margin-right: 5%;
+
+}
+
+.etheIcon {
+  float: left;
+  margin-left: 5%;
+
+}
+
+.petitParagraph1 {
+  color: var(--cyan);
+  padding-left: 0%;
+}
+
+.petitParagraph2 {
+  color: var(--soft-blue);
+  float:right;
+  padding-right: 0%;
+
+}
+
+.petitParagraph3 {
+  color: var(--white);
+}
+
+.element{
+  display: inline;
+}
+
+button{
+  background-color: var(--red);
+  border-radius: 20px;
+  color: var(--yellow);
+  font-weight: bolder;  
+}
+
+button:hover{
+ background-color: var(--yellow);
+ color: var(--red);
+ font-weight: bolder;
+}
